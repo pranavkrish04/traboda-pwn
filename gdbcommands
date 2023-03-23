@@ -1,3 +1,4 @@
 b* main+55
 r
 x/10gx $rsp
+x/i $rip
