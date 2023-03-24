@@ -6,7 +6,8 @@ __asm__("pop %rdi;"
 
 int win(int a, int b){
 	char* str = "/bin/sh;";
-	if(a == 69 && b == 1337){
+	char x[8];
+	if(a == 0xdead && b == 0x1337){
 		system(str);
 	}
 }
